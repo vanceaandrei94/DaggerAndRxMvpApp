@@ -20,5 +20,8 @@ public class Post {
     @SerializedName("body")
     private String body;
 
-
+    @Override
+    public String toString() {
+        return "{userId: " + userId + ", id: " + id + ", title: " + title + ", body: " + body + "}";
+    }
 }

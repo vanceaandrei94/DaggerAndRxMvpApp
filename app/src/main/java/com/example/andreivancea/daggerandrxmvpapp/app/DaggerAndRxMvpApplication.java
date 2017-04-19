@@ -36,7 +36,6 @@ public class DaggerAndRxMvpApplication extends Application {
                 .contextModule(new ContextModule(this))
                 .build();
 
-        component.injectApplication(this);
     }
 
     public ApplicationComponent component() {

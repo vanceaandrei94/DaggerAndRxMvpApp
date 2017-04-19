@@ -7,20 +7,20 @@
     tools:context="com.example.andreivancea.daggerandrxmvpapp.activities.main.MainActivity">
 
     <EditText
-        android:id="@+id/posts_number"
+        android:id="@+id/edit_posts_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:hint="Post Number(1-100)" />
 
     <Button
-        android:id="@+id/get_all_posts_btn"
+        android:id="@+id/btn_get_all_posts_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Get All Posts" />
 
     <Button
-        android:id="@+id/get_selected_post_btn"
+        android:id="@+id/btn_get_selected_post_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Get Chosen Post" />
